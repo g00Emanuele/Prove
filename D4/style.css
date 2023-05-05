@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#amazonlogo {
+    height: 5rem;
+    background-repeat: no-repeat;
+    background-image: url("assets/amazon.png");
+    background-color: #232F3F;
+    background-size: contain;
+}
+
+nav {
+    color: white;
+    background-color: #354758;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+
+li a, .back a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: #EAEDED;
+    padding: 1em;
+}
+
+#giftcards {
+    background-color: #F56600;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#holiday {
+    background-image: url("assets/bg-image.png");
+    margin-top: 1em;
+}
+
+.textA {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding: 1em;
+
+}
+
+.textB {
+    color: white;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#gallery {
+    background-color: white;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.gallerytext {
+    padding: 1em;
+}
+
+.textC {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.textD {
+    color: #5CA2AF;
+    font-weight: 500;
+    padding-left: 1em;
+
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+#gallery img {
+    width: 20em;
+    height: 22em;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px #dedede;
+}
+ 
+#gallery a, #videogames a, #music a, #shopping a {
+    color: #5CA2AF;
+    text-decoration: none;
+}
+
+#shopping {
+    margin-top: 1em;
+}
+
+#gaming {
+    background-color: white;
+    width: 25%;
+    padding: 0.5em;
+}
+
+.imgbox {
+    margin-bottom: 0.5em;
+}
+
+#gaming > p {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.line {
+    display: inline-block;
+}
+
+#gaming img {
+    width: 10em;
+    height: 10em;
+}
+
+#videogames img, #music img {
+    width: 100%;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.bottomlink {
+    text-align: center;
+}
+
+.back {
+    background-color: #354758;
+    padding: 1.3em;
+    text-align: center;
+}
+
+footer {
+    background-color: #232F3F;
+}
+
+.footerimg{
+    text-align: center;
+}
